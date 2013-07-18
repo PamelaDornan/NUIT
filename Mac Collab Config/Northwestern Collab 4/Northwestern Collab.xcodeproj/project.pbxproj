@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520DF6491384614B001E637C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DF6481384614B001E637C /* Cocoa.framework */; };
+		520DF6531384614B001E637C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520DF6511384614B001E637C /* InfoPlist.strings */; };
+		520DF6561384614C001E637C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DF6551384614C001E637C /* main.m */; };
+		520DF6591384614C001E637C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 520DF6571384614C001E637C /* Credits.rtf */; };
+		520DF65C1384614C001E637C /* Northwestern_CollabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DF65B1384614C001E637C /* Northwestern_CollabAppDelegate.m */; };
+		520DF65F1384614C001E637C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520DF65D1384614C001E637C /* MainMenu.xib */; };
+		520E241113847DCA00BB2FBD /* CollabBackground.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 520E241013847DCA00BB2FBD /* CollabBackground.bmp */; };
+		520E24141385BD5800BB2FBD /* outlook.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 520E24131385BD5800BB2FBD /* outlook.scpt */; };
+		522B302A13A1587D00483C27 /* nuitlogo_bigger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 522B302913A1587D00483C27 /* nuitlogo_bigger.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52054B681396DDDC00D7329C /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		520DF6441384614B001E637C /* Northwestern Collab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Northwestern Collab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DF6481384614B001E637C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		520DF64B1384614B001E637C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		520DF64C1384614B001E637C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		520DF64D1384614B001E637C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		520DF6501384614B001E637C /* Northwestern Collab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Northwestern Collab-Info.plist"; sourceTree = "<group>"; };
+		520DF6521384614B001E637C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		520DF6541384614B001E637C /* Northwestern Collab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Northwestern Collab-Prefix.pch"; sourceTree = "<group>"; };
+		520DF6551384614C001E637C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520DF6581384614C001E637C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		520DF65A1384614C001E637C /* Northwestern_CollabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Northwestern_CollabAppDelegate.h; sourceTree = "<group>"; };
+		520DF65B1384614C001E637C /* Northwestern_CollabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Northwestern_CollabAppDelegate.m; sourceTree = "<group>"; };
+		520DF65E1384614C001E637C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		520E241013847DCA00BB2FBD /* CollabBackground.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = CollabBackground.bmp; path = ../../CollabBackground.bmp; sourceTree = "<group>"; };
+		520E24131385BD5800BB2FBD /* outlook.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = outlook.scpt; path = ../../outlook.scpt; sourceTree = "<group>"; };
+		522B302913A1587D00483C27 /* nuitlogo_bigger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nuitlogo_bigger.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520DF6411384614B001E637C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DF6491384614B001E637C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520DF6391384614B001E637C = {
+			isa = PBXGroup;
+			children = (
+				522B302913A1587D00483C27 /* nuitlogo_bigger.jpg */,
+				520DF64E1384614B001E637C /* Northwestern Collab */,
+				520DF6471384614B001E637C /* Frameworks */,
+				520DF6451384614B001E637C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520DF6451384614B001E637C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520DF6441384614B001E637C /* Northwestern Collab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520DF6471384614B001E637C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520DF6481384614B001E637C /* Cocoa.framework */,
+				52054B681396DDDC00D7329C /* Automator.framework */,
+				520DF64A1384614B001E637C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520DF64A1384614B001E637C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520DF64B1384614B001E637C /* AppKit.framework */,
+				520DF64C1384614B001E637C /* CoreData.framework */,
+				520DF64D1384614B001E637C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		520DF64E1384614B001E637C /* Northwestern Collab */ = {
+			isa = PBXGroup;
+			children = (
+				520DF65A1384614C001E637C /* Northwestern_CollabAppDelegate.h */,
+				520E24131385BD5800BB2FBD /* outlook.scpt */,
+				520DF65B1384614C001E637C /* Northwestern_CollabAppDelegate.m */,
+				520DF65D1384614C001E637C /* MainMenu.xib */,
+				520DF64F1384614B001E637C /* Supporting Files */,
+			);
+			path = "Northwestern Collab";
+			sourceTree = "<group>";
+		};
+		520DF64F1384614B001E637C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520DF6501384614B001E637C /* Northwestern Collab-Info.plist */,
+				520DF6511384614B001E637C /* InfoPlist.strings */,
+				520E241013847DCA00BB2FBD /* CollabBackground.bmp */,
+				520DF6541384614B001E637C /* Northwestern Collab-Prefix.pch */,
+				520DF6551384614C001E637C /* main.m */,
+				520DF6571384614C001E637C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520DF6431384614B001E637C /* Northwestern Collab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DF6621384614C001E637C /* Build configuration list for PBXNativeTarget "Northwestern Collab" */;
+			buildPhases = (
+				520DF6401384614B001E637C /* Sources */,
+				520DF6411384614B001E637C /* Frameworks */,
+				520DF6421384614B001E637C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Northwestern Collab";
+			productName = "Northwestern Collab";
+			productReference = 520DF6441384614B001E637C /* Northwestern Collab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520DF63B1384614B001E637C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 520DF63E1384614B001E637C /* Build configuration list for PBXProject "Northwestern Collab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 520DF6391384614B001E637C;
+			productRefGroup = 520DF6451384614B001E637C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520DF6431384614B001E637C /* Northwestern Collab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520DF6421384614B001E637C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DF6531384614B001E637C /* InfoPlist.strings in Resources */,
+				520DF6591384614C001E637C /* Credits.rtf in Resources */,
+				520DF65F1384614C001E637C /* MainMenu.xib in Resources */,
+				520E241113847DCA00BB2FBD /* CollabBackground.bmp in Resources */,
+				520E24141385BD5800BB2FBD /* outlook.scpt in Resources */,
+				522B302A13A1587D00483C27 /* nuitlogo_bigger.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520DF6401384614B001E637C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DF6561384614C001E637C /* main.m in Sources */,
+				520DF65C1384614C001E637C /* Northwestern_CollabAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520DF6511384614B001E637C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DF6521384614B001E637C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		520DF6571384614C001E637C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DF6581384614C001E637C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		520DF65D1384614C001E637C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DF65E1384614C001E637C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520DF6601384614C001E637C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		520DF6611384614C001E637C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		520DF6631384614C001E637C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Northwestern Collab/Northwestern Collab-Prefix.pch";
+				INFOPLIST_FILE = "Northwestern Collab/Northwestern Collab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		520DF6641384614C001E637C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Northwestern Collab/Northwestern Collab-Prefix.pch";
+				INFOPLIST_FILE = "Northwestern Collab/Northwestern Collab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520DF63E1384614B001E637C /* Build configuration list for PBXProject "Northwestern Collab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DF6601384614C001E637C /* Debug */,
+				520DF6611384614C001E637C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520DF6621384614C001E637C /* Build configuration list for PBXNativeTarget "Northwestern Collab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DF6631384614C001E637C /* Debug */,
+				520DF6641384614C001E637C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520DF63B1384614B001E637C /* Project object */;
+}
