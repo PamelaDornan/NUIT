@@ -1,0 +1,727 @@
+/* NUIT CSS styles */
+html{color:#000; background: url('http://www.it.northwestern.edu/shared/nuit/images/hbg.gif') #eae9ea  repeat-x; margin:0; padding:0; }
+.container {margin:auto;text-align:left;width:57.69em; width:56.25em;min-width:950px; }
+
+.additionalInfoHead { clear: both; }
+
+.hidden {
+    display: none;
+}
+
+.emergency {
+    background-color: yellow;
+    padding: 1em;
+    width: 90%
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.smalltext {
+    font-size: .75em;
+}
+
+.border {
+    padding: .5em;
+    border: 2px solid #333333;
+}
+
+.codebox {
+    background-color: #EAE9EA;
+    display: inline-block;
+    *display: inline;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.codebox p {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.twocol{
+    float: left;
+    width: 50%;
+}
+
+ul.hook {
+    list-style-image:url(http://www.it.northwestern.edu/images/glyph/hook-bullet.png) !important;
+}
+
+ul.check {
+    list-style-image:url(http://www.it.northwestern.edu/images/glyph/check.gif) !important;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+ol li ol {
+       list-style-type: lower-alpha;
+}
+
+ol.lowroman {
+    list-style-type: lower-roman;
+}
+
+pre {
+    margin: 0;
+}
+
+.code { margin-left: 10px; font-family: monospace; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.white { color: white; }
+
+.red { color: red; }
+
+.lime { color: lime; font-weight: bold;}
+
+.blue { color: blue; }
+
+.bglime { background: lime; }
+
+.bgyellow { background: yellow; }
+
+.green {color: green;}
+
+#notice {
+    background: rgb(255,255,204);
+    border: 2px outset #333;
+    padding: 12px 10px;
+}
+
+
+p {
+font-family: Verdana, Arial, sans-serif;
+line-height:17px;
+font-size:12px;
+}
+
+a, a:visited {
+    color:#48134f; 
+    text-decoration:underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #48134f;
+}
+
+a img {
+    border: none;
+}
+
+img.left {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+img.right {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+/* Header */
+
+#logo {
+    float: left;
+    padding: 24px 0 0 20px;
+}
+
+#logo-zone {
+    position: absolute; 
+    top: 8px; 
+    left: 0px; 
+    width: 450px; 
+    height: 83px; 
+    background-color: transparent; 
+}
+
+#logo p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#logo h1 {
+}
+
+#logo p {
+    padding-left: 1px;
+    line-height: normal;
+    font-size: .85em;
+}
+
+
+/* Page */
+
+#page {
+    width: 950px;
+    margin: 0 auto;
+    margin-top:5px;
+    background:#fff;
+    border:15px solid #fff;
+    clear:both;
+}
+
+/*--Firefox ---*/
+html>/**/body div#page{margin-top:18px;}
+
+
+/* Content */
+
+#content {
+    float: right;
+    width: 640px;
+    background:#fff;
+}
+
+div.bodyContent, div.bodyContent ol, div.bodyContent ul, div.bodyContent li{
+font-family: Verdana, Arial, sans-serif;
+line-height:17px;
+font-size:12px;
+
+}
+div.additionalInfo ul li {
+font-size:12px;
+line-height:17px;
+font-family: Verdana, Arial, sans-serif;
+}
+
+div#maincontent div.open, div#content ul li, #maincontent,  #maincontent ol li {
+font-size:12px;
+line-height:17px;
+font-family: Verdana, Arial, sans-serif;
+}
+
+div.content ul li h4 {
+font-weight:normal;
+font-family: Verdana, Arial, sans-serif;
+font-size:11px; 
+color:#48134f; 
+margin:0;
+margin-bottom:-8px;
+padding:0;
+}
+*:first-child+html .content ul li h4 {padding:0; margin:0; }
+* html div.content ul {margin:0px; margin-top:7px;}
+* html .content p.dates {margin-top:11px;}
+* html .content ul li  {margin-top:-13px;}
+/*--IE 7 ---*/
+*:first-child+html p.dates{
+margin-top:4px;
+margin-bottom:6px;
+}
+
+.content p.dates {
+border-bottom:1px solid #ccc; 
+font-size:10px;
+color:#999;
+}
+.content ul {
+margin:0;
+padding:15px;
+list-style:none;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    width: 250px;
+    border:1px solid #efefef;
+    padding:8px;
+}
+
+#leftnav h2 {
+    margin: 0;
+    padding:5px;
+    padding-bottom:0;
+    font-size: 14px;
+    color: #48134f;
+    border:1px solid #efefef;
+    background:#efefef;
+    text-align:center;
+    font-weight:bold;
+}
+
+#leftnav h3 {
+    margin: 0;
+    padding:5px;
+    padding-bottom:0;
+    color: #48134f;
+    border:1px solid #efefef;
+    background:#efefef;
+    text-align:center;
+    font-weight:bold;
+    height:30px;
+    font-size:16px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding-left:15px;
+    list-style: none;
+}
+
+#sidebar li ul {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#sidebar ul li {
+    font-weight: normal;
+    font-size:11px;
+    list-style-image: url("http://www.it.northwestern.edu/shared/nuit/images/navdash.gif");
+}
+
+#sidebar P              {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #48134f;
+    text-decoration: none;
+    font-size:12px;
+}
+
+#sidebar ul, #sidebar ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+
+#sidebar ul li {
+    margin-left:10px;
+    padding: 0px;
+    font-weight: normal;
+    list-style-image: url("http://www.it.northwestern.edu/shared/nuit/images/navdash.gif");
+}
+
+#sidebar p A, #sidebar p A:link, #sidebar p A:visited               {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #48134f;
+    text-decoration: none;
+    font-size:12px;
+}
+
+#sidebar P A:hover, #sidebar P A:active     {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #48134f;
+    text-decoration: underline;
+    font-size:12px;
+}
+
+#sidebar A, #sidebar A:link, #sidebar A:visited             {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+    font-size:11px;
+    padding:2px;
+}
+
+#sidebar A:hover, #sidebar A:active     {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-decoration: underline;
+    font-size:11px;
+}
+
+#sidebar B, #sidebar .selected      {
+    font-weight: bold;
+    /*color: #3E3E3E;*/
+    color: #48134f;
+}
+
+#sidebar P.subnav       {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+#sidebar P.subnav A, #sidebar P.subnav A:link, #sidebar P.subnav A:visited, 
+#sidebar A.subnav, #sidebar A.subnav:link, #sidebar A.subnav:visited                {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+    font-size:12px;
+}
+
+#sidebar P.subnav A:hover, #sidebar P.subnav A:active, 
+#sidebar A.subnav:hover, #sidebar A.subnav:active       {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-decoration: underline;
+    font-size:12px;
+}
+
+#sidebar P.subnavadmin      {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+    text-indent: -10px;
+    color: #750000;
+}
+
+#sidebar A.subnavadmin, #sidebar A.subnavadmin:link, #sidebar A.subnavadmin:visited             {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #750000;
+    text-decoration: none;
+    font-size:12px;
+}
+
+#sidebar A.subnavadmin:hover, #sidebar A.subnavadmin:active     {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #750000;
+    text-decoration: underline;
+    font-size:12px;
+}
+#sidebar li li {
+    padding: 5px 20px;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+
+/* Main headline photo */
+
+.mainphoto {
+    background: #FFFFFF ;
+}
+
+.mainphoto .title {
+    height: 60px;
+}
+
+.mainphoto .entry {
+}
+
+/* Two Columns */
+
+.two-columns {
+    clear: right;
+    background: #fff;
+    border-top: 10px solid #fff;
+    padding-bottom:10px;
+    height:270px;
+}
+
+.two-columns .title {
+}
+
+.two-columns .cal {
+    background: url(http://www.it.northwestern.edu/shared/nuit/images/h2bg.gif) repeat-x;
+}
+
+.two-columns .news {
+    background: url(http://www.it.northwestern.edu/shared/nuit/images/h2bg.gif) repeat-x;
+}
+
+.two-columns .columnNews, .two-columns .columnCal {
+    width: 315px;
+    background:#f4f2f5;
+}
+
+.two-columns .columnNews {
+    float: left;
+}
+
+.two-columns .columnCal {
+    float: right;
+}
+
+.two-columns .btm {
+    clear: both;
+}
+
+/*--li.rss-item {list-style-type:none; border-bottom:1px solid #ccc; margin:5px; margin-top:0; }
+*:first-child+html li.rss-item{margin:0;}
+a.rss-item {font-family:arial,sans-serif; font-size:11px; color:#48134f; text-decoration:none;}
+span.rss-date {font-family:arial,sans-serif; font-size:10px;
+color:#959595;}--*/
+
+
+div.support{
+/*border-top:6px solid #48134f; */
+background:#fff; 
+float:left; 
+width:295px; 
+margin-top:14px;
+}
+
+div.support ul li {
+font-size:12px;
+padding-left:20px;
+line-height:19px;
+}
+
+div.support ul li a {
+text-decoration:none;
+color:#48134f;
+background-image:url(http://www.it.northwestern.edu/shared/nuit/images/arrow-small.gif);
+background-repeat:no-repeat;
+padding-left:10px;
+}
+
+div.support ul li a:hover {
+text-decoration:underline;
+}
+
+div.support p {
+text-align:center;
+}
+
+/* Left Menu */
+#leftmenu {
+    top:0px;
+    left:20px;
+    right:20px;
+    width: 267px;
+    margin: 0px;
+    float:left;
+    font-family:Verdana, sans-serif;
+    font-style:normal;
+    font-size:13px;
+    color:#fff;
+    border-top:15px solid #48134f;
+    background-color:#fff;
+    }
+* html #leftmenu {
+    top:15px;
+}
+#leftmenu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    }
+#leftmenu li {
+    margin:0;
+    padding:0;
+}
+#leftmenu li a {
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    color:#fff;
+    padding-left:30px;
+    height:20px
+    }   
+#leftmenu li a:link, #leftmenu li a:visited {
+    color: #fff;
+    display: block;
+    border-bottom:1px solid #744b77;
+    padding-top:5px;
+    padding-bottom:5px;
+    background:#48134f;
+    }
+
+#leftmenu li a:hover {
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom:1px solid #744b77;
+    background:#6c4272;
+    }
+
+/* Search box */
+#searchbox {clear:both; width:950px;}
+div.search {float:right; color:#fff; font-size:9px; font-family:Arial, Verdana, sans-serif; background-image:url(http://www.it.northwestern.edu/shared/nuit/images/search_bg.gif); background-repeat:no-repeat; width:573px; height:39px; clear:right; }
+input#searchinput.searchbox {height:13px; margin-left:5px; margin-top:6px; font-size:10px;}
+select#quicklinks {font-size:10px; width:135px; margin-top:5px; }
+div.search form select {font-size:10px; width:135px; margin-top:7px; }
+form { float:left; margin-top:5px; padding-left:10px;}
+
+div.search form a:link, div.search form a:hover, div.search form a:visited {color:#fff;}
+div.logo {float:left; width:270px; height:80px; background-image:url(http://www.it.northwestern.edu/shared/nuit/images/nuitlogo.gif); }
+html>/**/body div.logo {margin-bottom:17px;}
+
+#hd {clear:both;}
+
+/* Footer */
+#ft {   
+    border-top:5px solid #48134f;
+    background:#fff;
+    padding: 5px;
+    padding-left:20px;
+    clear:both;
+    height: 120px;
+    margin-top:10px;
+    }
+
+#ft p.nulogo {float:left; padding-right:35px;}
+
+#ft div.info p{
+    color:#470056;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    line-height:18px;
+    text-align:left;
+    }
+    
+#ft div#gglogo {float:left; width:175px;}
+html>/**/body #ft div#gglogo {float:right; width:175px; margin-top:-60px;}
+
+#ft div#smedia {font-family: Verdana, Arial, sans-serif; line-height:1.6em; font-size:.75em; float:right; width:175px; margin-top:20px; padding-left: 2px;}
+html>/**/body #ft div#smedia {float:right; width:175px; margin-top:-70px;}
+#ft div#smedia img {margin-bottom: -2px; padding-right: .4em;}
+#ft div#smedia span#title {color: #48134f; font-size: 1.25em; font-weight: bold; line-height: 2em; margin-left: -2px;}
+#ft div#smedia a:hover {text-decoration: underline;}
+
+#ft div.info {padding-top:20px; width:500px; float:left;}
+html>/**/body #ft div.info {padding-top:20px; width:730px; float:none;}
+
+#ft a {
+    color:#470056;
+    text-decoration:none;
+    }
+#ft p a:hover {
+    text-decoration:underline;
+    }
+    
+    
+    
+/* ---------- Navigation Menu ----------------- */
+#inner_wrap { margin: 0pt auto; margin-top:8px; background: #48134F none repeat;  clear:both; margin-top:12px; }
+#menuwrapper {background:#48134F; position: relative; z-index: 20000; text-decoration: none; font-size: 1em; text-align: left; font-family: Arial,sans-serif; font-size: 70%; line-height: 1.5em;}
+.clearit { clear: both; height: 0pt; line-height: 0pt; font-size: 0pt; }
+#p7menubar, #p7menubar ul { margin: 0pt; padding: 0pt; list-style-type: none; list-style-image: none; list-style-position: outside; }
+#p7menubar a {  padding: 5px 25px; display: block; text-decoration: none; color:#fff; }
+#p7menubar a.trigger { padding: 5px 25px; }
+#p7menubar a.trigger_onstate, #p7menubar a.trigger:hover, #p7menubar a.trigger_nobar:hover { padding: 5px 25px; background-color:#6C4272; }
+#p7menubar a.trigger_nobar { border-right: medium none; padding: 5px 25px; }
+#p7menubar a.trigger_onstate_nobar { border-right: medium none; padding: 5px 25px; background-color: #fff; }
+#p7menubar li { float: left; width: 9em; font-size: 1em; }
+#p7menubar li ul, #p7menubar ul li { width: 16em; font-size: 1em; }
+#p7menubar ul li a { border-bottom:1px solid #7e5982; margin: 0pt; padding: 2px 25px; color: #fff; line-height: 11px; font-size: 1em; }
+#p7menubar li ul {width:220px; position: absolute; display: none; background-color:#48134F; background-repeat: repeat; font-size: 1em; padding-bottom: 10px; }
+#p7menubar li:hover a, #p7menubar a:focus, #p7menubar a:active, #p7menubar li.p7hvr a { padding: 5px 25px; color:#fff; font-size: 1em; }
+#p7menubar li:hover ul, #p7menubar li.p7hvr ul { display: block; font-size: 1em; }
+#p7menubar li:hover ul a, #p7menubar li.p7hvr ul a { width:170px; color: #fff; background-color: #48134F; font-size: 1em; background-repeat: no-repeat;}
+#p7menubar ul a:hover { background-color: #6C4272 ! important; color:#fff ! important; font-size: 1em; }
+#p7menubar li { width: auto; }
+#p7menubar {margin-left:70px;}
+
+
+/* template styles */
+div#maincontent div.additionalInfoHead {
+border-bottom:2px solid #48134f;
+font-family:Georgia;
+font-size:18px;
+font-weight:bold;
+padding-bottom:5px;
+margin-bottom:5px;
+margin-top:10px;
+color:#48134f;
+}
+div#leftnav h2 {
+height:30px;
+font-size:16px;
+}
+
+div#ztitle h1{
+color:#48134f;
+font-family:Georgia;
+padding-bottom:5px;
+font-size:24px;
+line-height:25px;
+}
+
+div.bodyContent {
+width:600px;
+font-size:12px;
+}
+div.bodyContent h3, div.bodyContent h4, div.bodyContent h2, div#maincontent h2, div#maincontent h3, div#maincontent h4 {
+color:#48134f;
+font-size:16px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+div.bodyContent h5, div#maincontent h5 {
+font-size: 1em;
+font-weight: bold;
+font-family: Verdana, Arial, sans-serif;
+}
+
+div.breadcrumb {
+font-size:14px;
+color:#666;
+background-color:#efefef;
+padding:5px;
+}
+
+span.zbccurrent {
+font-weight:bold;
+color:#48134f;
+}
+
+span.small {font-size:9px;}
+
+p.lastmodified {clear:left; font-size:10px;}
+
+
+
+/* alternating table row colors added 6.29.2007 */
+table.alternate_rows {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.alternate_rows th, table.alternate_rows td {
+    text-align: left;
+    padding: 3px 4px 3px 4px;
+    border-style: solid;
+    border-color: #fff;
+}
+table.alternate_rows th {
+    border-width: 0px 1px 1px 1px;
+    background-color: #6c4272;
+    color:#fff;
+}
+
+table.alternate_rows th a:link {
+        color:white;}
+
+table.alternate_rows th a:hover {
+        color:white;}
+
+table.alternate_rows th a:visited {
+        color:white;}
+
+table.alternate_rows td {
+    border-width: 0px 1px 0px 1px;
+}
+table.alternate_rows tr.odd td {
+    background-color: #ddd;
+}
+table.alternate_rows tr.even td {
+    background-color: #fff;
+}
+table.alternate_rows tr.sortbottom td {
+    border-top: 1px solid #444;
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+td.boxtitle {
+background-color:#48134f;
+}
+
+div#cal div#event em {
+font-style:normal;
+font-size:11px;
+color:#666;
+background-color:#efefef;
+padding:3px;
+}
